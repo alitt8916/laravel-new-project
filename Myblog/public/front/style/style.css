@@ -1,0 +1,65 @@
+
+
+body{
+    direction: rtl;
+}
+.home-text p{
+    width: 500px;
+}
+.home-text{
+    padding-right: 200px;
+    
+}
+
+.home-img{
+    /* background: url('../images/ex5.jpg'); */
+
+    /* background-size: 500px; */
+    /* background-position-x: left; */
+    /* image-orientation: flip; */
+    /* margin-top: 500px; */
+    /* ;
+    background-color: red; */
+    position: relative;
+}
+
+.home-img img{
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    position: absolute;
+    bottom: 0;
+}
+
+.home-img::before{
+    content: "";
+    position: absolute;
+    clip-path: polygon(0 0, 62% 0, 100% 100%, 0 100%);
+    background: crimson;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+
+}
+
+.blog-details img{
+    height: auto;    
+}
+
+
+
+
+
+
+
+
+.blog-item img{
+    height: 250px;
+}
+
+
+
+
+
+
+
